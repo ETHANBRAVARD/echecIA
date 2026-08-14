@@ -1,0 +1,25 @@
+# Bases de parties (Lichess, CCRL) — plusieurs Go, à retélécharger
+*.pgn
+*.zst
+*.7z
+
+# Poids de modèles entraînés
+*.pt
+*.pth
+
+# Logs d'entraînement
+*.txt
+
+# Binaire Stockfish (à réinstaller séparément)
+stockfish/
+
+# Sorties de self-play
+selfplay_degrade_1419/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+.DS_Store
