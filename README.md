@@ -1,6 +1,8 @@
 # echecIA
 
-> *README temporaire, coécrit avec Claude.*
+*Un moteur d'échecs de type AlphaZero, pour jouer aux échecs et comprendre le fonctionnement de réseaux de neurones simples. Il prolonge mon projet Puissance 4 sur un jeu bien plus difficile, mais dont les IA sont bien mieux documentées.*
+
+> **In English:** an AlphaZero-style chess engine written by hand (residual network, MCTS, self-play), at about 2090 Elo against strength-limited Stockfish. Full write-up in French below.
 
 Un moteur d'échecs de type **AlphaZero** écrit à la main : réseau résiduel à deux têtes,
 recherche arborescente de Monte-Carlo guidée par PUCT, pré-entraînement supervisé sur des
@@ -156,3 +158,7 @@ d'entraînement, binaire Stockfish.
 
 Ce moteur est conçu pour un tournoi opposant mon IA à celles de mes amis — d'où le
 système ELO et le format de partie standardisé.
+
+---
+
+*Ce README a été rédigé avec l'aide de Claude, à partir de mes notes et de mes résultats. Le cœur du moteur et les expériences sont de moi ; les deux briques déléguées, les règles du jeu et le classement Elo, sont détaillées plus haut dans « Ce que j'ai écrit moi-même ».*
